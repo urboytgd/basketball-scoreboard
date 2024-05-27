@@ -1,8 +1,67 @@
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: CursedTimer;
+}
+
 body {
     margin: 0;
+    background: url("peter-berko-4ie4fXv7cX4-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.team-name {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin: 190px auto;
+    width: 35%;
+    text-align: center;
+    background-color: #69916f;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    border-radius: 25px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 3)
+}
+
+.reset-game {
+    position: fixed;
+    top: 91%;
+}
+
+.score {
+    background-color: #080001;
+    color: #F94F6D;
+    padding: 50px 70px;
+    font-family: CursedTimer;
+    font-size: 6rem;
+    border-radius: 25px;
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+button:active {
+    background-color: #F94F6D;
+    color: white;
 }
